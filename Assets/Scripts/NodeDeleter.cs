@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// ONLY USED FOR SETTING UP THE GAME BOARD- NOT NEEDED ANYMORE (but didn't want to delete)
 public class NodeDeleter : MonoBehaviour
 {
         // Start is called before the first frame update

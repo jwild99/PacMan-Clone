@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+// ONLY USED FOR SETTING UP THE GAME BOARD- NOT NEEDED ANYMORE (but didn't want to delete)
 public class SpawnNodes : MonoBehaviour
 {
         int numToSpawn = 28;
