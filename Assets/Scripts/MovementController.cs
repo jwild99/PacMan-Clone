@@ -19,6 +19,7 @@ public class MovementController : MonoBehaviour
 
     void Awake()
     {
+        lastMovingDirection = "left";
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
     }
 
