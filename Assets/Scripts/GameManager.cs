@@ -20,9 +20,16 @@ public class GameManager : MonoBehaviour
     public int score;
     public Text scoreText;
 
+    public GameObject ghostNodeLeft;
+    public GameObject ghostNodeRight;
+    public GameObject ghostNodeCenter;
+    public GameObject ghostNodeStart;
+
     // Start is called before the first frame update
     void Awake()
     {
+        ghostNodeStart.GetComponent<NodeController>().isGhostStartingNode = true;
+
         score = 0;
         currentMunch = 0;
         siren.Play();
