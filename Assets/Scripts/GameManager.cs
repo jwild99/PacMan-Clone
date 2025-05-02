@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.UI;
@@ -44,6 +45,7 @@ public class GameManager : MonoBehaviour
     public bool gameIsRunning;
 
     public Image blackBackground;
+    public Text gameOverText;
 
     public List<NodeController> nodeControllers = new List<NodeController>();
 
@@ -51,6 +53,7 @@ public class GameManager : MonoBehaviour
     public bool clearedLevel;
 
     public AudioSource startGameAudio;
+    public AudioSource deathSound;
 
     public int lives;
     public int currentLevel;
@@ -90,6 +93,8 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Setup started.");
 
+        gameOverText.enabled = false;
+
         // setup munch audio to first audio source
         currentMunch = 0;
 
@@ -113,6 +118,7 @@ public class GameManager : MonoBehaviour
 
         if (clearedLevel || newGame)
         {
+            hadDeathOnThisLevel = false;
             pelletsLeft = totalPellets;
             waitTimer = 4f;
             // pellets respawn when pacman clears a level or a new game starts
@@ -237,5 +243,36 @@ public class GameManager : MonoBehaviour
         }
 
         // is this a power pellet
+    }
+
+    public IEnumerator PlayerEaten()
+    {
+        hadDeathOnThisLevel = true;
+        StopGame();
+        yield return new WaitForSeconds(1);
+
+        redGhostController.SetVisibile(false);
+        pinkGhostController.SetVisibile(false);
+        blueGhostController.SetVisibile(false);
+        orangeGhostController.SetVisibile(false);
+
+        pacman.GetComponent<PlayerController>().Death();
+        deathSound.Play();
+
+        yield return new WaitForSeconds(3);
+
+        lives --;
+
+        if (lives <= 0)
+        {
+            newGame = true;
+
+            // display game over text
+            gameOverText.enabled = true;
+
+            yield return new WaitForSeconds(3);
+        }
+
+        StartCoroutine(Setup());
     }
 }

@@ -91,4 +91,10 @@ public class PlayerController : MonoBehaviour
         sprite.flipX = flipX;
         sprite.flipY = flipY;
     }
+
+    public void Death()
+    {
+        animator.SetBool("moving", false);
+        animator.SetBool("dead", true);
+    }
 }
