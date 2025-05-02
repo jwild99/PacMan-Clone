@@ -18686,6 +18686,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dba7efe8378454fec9673ed5f01a762c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pacman: {fileID: 234752087}
   leftWarpNode: {fileID: 84363850}
   rightWarpNode: {fileID: 110669093}
   siren: {fileID: 680899062}
@@ -42438,7 +42439,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ghostNodeState: 0
-  ghostType: 3
+  ghostType: 0
   ghostNodeLeft: {fileID: 438482661}
   ghostNodeRight: {fileID: 669999948}
   ghostNodeCenter: {fileID: 721114986}
@@ -42446,6 +42447,7 @@ MonoBehaviour:
   movementController: {fileID: 0}
   startingNode: {fileID: 0}
   readyToLeaveHome: 0
+  gameManager: {fileID: 0}
 --- !u!4 &1509905295
 Transform:
   m_ObjectHideFlags: 0

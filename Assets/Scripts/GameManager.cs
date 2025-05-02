@@ -6,12 +6,17 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public GameObject pacman;
+
     public GameObject leftWarpNode;
     public GameObject rightWarpNode;
+
     public AudioSource siren;
+
     public AudioSource munch1;
     public AudioSource munch2;
     public int currentMunch;
+
     public int score;
     public Text scoreText;
 

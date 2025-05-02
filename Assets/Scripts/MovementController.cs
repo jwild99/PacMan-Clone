@@ -49,6 +49,7 @@ public class MovementController : MonoBehaviour
             {
                 GetComponent<EnemyController>().ReachedCenterOfNode(currentNodeController);
             }
+
             // if entity reaches the center of the left warp node, warp to the right warp node
             if (currentNodeController.isWarpLeftNode && canWarp)
             {
