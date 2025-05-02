@@ -97,15 +97,22 @@ public class EnemyController : MonoBehaviour
         // reset ghost node state back to start state
         ghostNodeState = startGhostNodeState;
 
+        readyToLeaveHome = false;
+
         // reset ghosts back to their home positions
         movementController.currentNode = startingNode;
         transform.position = startingNode.transform.position;
+
+        movementController.direction = "";
+        movementController.lastMovingDirection = "";
 
         // set their scatter node indices to 0
         scatterNodeIndex = 0;
 
         // set isFrightened to false
         isFrightened = false;
+
+        leftHomeBefore = false;
 
         // set readyToLeaveHome back to false if blue or pink ghost
         if (ghostType == GhostType.red)

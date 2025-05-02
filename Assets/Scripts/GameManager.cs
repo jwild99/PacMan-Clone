@@ -43,6 +43,8 @@ public class GameManager : MonoBehaviour
 
     public bool gameIsRunning;
 
+    public Image blackBackground;
+
     public List<NodeController> nodeControllers = new List<NodeController>();
 
     public bool newGame;
@@ -65,6 +67,10 @@ public class GameManager : MonoBehaviour
     void Awake()
     {
         Debug.Log("GameManager Awake()");
+
+        // black screen turned off by default
+        blackBackground.enabled = false;
+
         newGame = true;
         clearedLevel = false;
 
@@ -90,11 +96,15 @@ public class GameManager : MonoBehaviour
         // if pacman clears a level, a background will appear covering the level and the game will pause for 0.1 seconds
         if (clearedLevel)
         {
-            Debug.Log("Cleared level, pausing briefly.");
+            Debug.Log("Cleared level. Resetting everything and pausing briefly.");
 
             // activate background
+            blackBackground.enabled = true;
             yield return new WaitForSeconds(0.1f);
         }
+        // deactivate background after 0.1 seconds
+        blackBackground.enabled = false;
+
         pelletsCollectedOnThisLife = 0;
         currentGhostMode = GhostMode.scatter;
         gameIsRunning = false;
@@ -103,6 +113,7 @@ public class GameManager : MonoBehaviour
 
         if (clearedLevel || newGame)
         {
+            pelletsLeft = totalPellets;
             waitTimer = 4f;
             // pellets respawn when pacman clears a level or a new game starts
             for (int i = 0; i < nodeControllers.Count; i ++)
@@ -147,6 +158,13 @@ public class GameManager : MonoBehaviour
         siren.Play();
     }
 
+    void StopGame()
+    {
+        gameIsRunning = false;
+        siren.Stop();
+        pacman.GetComponent<PlayerController>().Stop();
+    }
+
     // Update is called once per frame
     void Update()
     {
@@ -166,7 +184,7 @@ public class GameManager : MonoBehaviour
         scoreText.text = "Score: " + score.ToString();
     }
 
-    public void CollectedPellet(NodeController nodeController)
+    public IEnumerator CollectedPellet(NodeController nodeController)
     {
         if (currentMunch == 0)
         {
@@ -205,13 +223,18 @@ public class GameManager : MonoBehaviour
             orangeGhost.GetComponent<EnemyController>().readyToLeaveHome = true;
         }
 
+        // add to our score
         AddToScore(10);
 
-        // add to our score
-
         // check if there are any pellets left
-
-        // check how many pellets have been eaten
+        if (pelletsLeft == 0)
+        {
+            currentLevel += 1;
+            clearedLevel = true;
+            StopGame();
+            yield return new WaitForSeconds(1);
+            StartCoroutine(Setup());
+        }
 
         // is this a power pellet
     }
