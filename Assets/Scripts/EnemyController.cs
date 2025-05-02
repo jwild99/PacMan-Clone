@@ -16,6 +16,7 @@ public class EnemyController : MonoBehaviour
     }
 
     public GhostNodeStatesEnum ghostNodeState;
+    public GhostNodeStatesEnum startGhostNodeState;
 
     public enum GhostType
     {
@@ -52,43 +53,80 @@ public class EnemyController : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
-        scatterNodeIndex = 0;
         gameManager = GameObject.Find("GameManager").GetComponent<GameManager>();
         movementController = GetComponent<MovementController>();
 
         if (ghostType == GhostType.red)
         {
+            startGhostNodeState = GhostNodeStatesEnum.startNode;
             respawnState = GhostNodeStatesEnum.centerNode;
-            ghostNodeState = GhostNodeStatesEnum.startNode;
             startingNode = ghostNodeStart;
+        }
+        else if (ghostType == GhostType.pink)
+        {
+            startGhostNodeState = GhostNodeStatesEnum.centerNode;
+            respawnState = GhostNodeStatesEnum.centerNode;
+            startingNode = ghostNodeCenter;
+        }
+        else if (ghostType == GhostType.blue)
+        {
+            startGhostNodeState = GhostNodeStatesEnum.leftNode;
+            respawnState = GhostNodeStatesEnum.leftNode;
+            startingNode = ghostNodeLeft;
+        }
+        else if (ghostType == GhostType.orange)
+        {
+            startGhostNodeState = GhostNodeStatesEnum.rightNode;
+            respawnState = GhostNodeStatesEnum.rightNode;
+            startingNode = ghostNodeRight;
+        }
+    }
+
+    public void Setup()
+    {
+
+        if (startingNode == null)
+        {
+            Debug.LogError(name + " has no startingNode assigned.");
+        }
+        if (movementController == null)
+        {
+            Debug.LogError(name + " has no MovementController.");
+        }
+
+        // reset ghost node state back to start state
+        ghostNodeState = startGhostNodeState;
+
+        // reset ghosts back to their home positions
+        movementController.currentNode = startingNode;
+        transform.position = startingNode.transform.position;
+
+        // set their scatter node indices to 0
+        scatterNodeIndex = 0;
+
+        // set isFrightened to false
+        isFrightened = false;
+
+        // set readyToLeaveHome back to false if blue or pink ghost
+        if (ghostType == GhostType.red)
+        {
             readyToLeaveHome = true;
             leftHomeBefore = true;
         }
         else if (ghostType == GhostType.pink)
         {
-            respawnState = GhostNodeStatesEnum.centerNode;
-            ghostNodeState = GhostNodeStatesEnum.centerNode;
-            startingNode = ghostNodeCenter;
+            readyToLeaveHome = true;
         }
-        else if (ghostType == GhostType.blue)
-        {
-            respawnState = GhostNodeStatesEnum.leftNode;
-            ghostNodeState = GhostNodeStatesEnum.leftNode;
-            startingNode = ghostNodeLeft;
-        }
-        else if (ghostType == GhostType.orange)
-        {
-            respawnState = GhostNodeStatesEnum.rightNode;
-            ghostNodeState = GhostNodeStatesEnum.rightNode;
-            startingNode = ghostNodeRight;
-        }
-        movementController.currentNode = startingNode;
-        transform.position = startingNode.transform.position;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!gameManager.gameIsRunning)
+        {
+            return;
+        }
+
         if (testRespawn)
         {
             readyToLeaveHome = false;

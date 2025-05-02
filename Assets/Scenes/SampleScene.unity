@@ -6962,6 +6962,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ghostNodeState: 0
+  startGhostNodeState: 0
   ghostType: 3
   respawnState: 0
   ghostNodeLeft: {fileID: 438482661}
@@ -7139,6 +7140,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
   animator: {fileID: 0}
+  startNode: {fileID: 0}
+  startPosition: {x: 0, y: 0}
+  gameManager: {fileID: 0}
 --- !u!4 &234752090
 Transform:
   m_ObjectHideFlags: 0
@@ -7148,7 +7152,7 @@ Transform:
   m_GameObject: {fileID: 234752087}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.05, y: -0.622, z: 0}
+  m_LocalPosition: {x: -0.06, y: -0.63, z: 0}
   m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19037,6 +19041,7 @@ GameObject:
   - component: {fileID: 680899062}
   - component: {fileID: 680899064}
   - component: {fileID: 680899063}
+  - component: {fileID: 680899065}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -19073,10 +19078,21 @@ MonoBehaviour:
   pinkGhost: {fileID: 1456546124}
   blueGhost: {fileID: 934364264}
   orangeGhost: {fileID: 229806650}
+  redGhostController: {fileID: 0}
+  pinkGhostController: {fileID: 0}
+  blueGhostController: {fileID: 0}
+  orangeGhostController: {fileID: 0}
   totalPellets: 0
   pelletsLeft: 0
   pelletsCollectedOnThisLife: 0
   hadDeathOnThisLevel: 0
+  gameIsRunning: 0
+  nodeControllers: []
+  newGame: 0
+  clearedLevel: 0
+  startGameAudio: {fileID: 680899065}
+  lives: 0
+  currentLevel: 0
   currentGhostMode: 0
 --- !u!4 &680899061
 Transform:
@@ -19296,6 +19312,102 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: fda8f5bcc2e0a4e05bb9355b9aae379e, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &680899065
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680899059}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 6a00ca27c8f5246648b8e32b5da7b6ff, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -27701,6 +27813,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ghostNodeState: 0
+  startGhostNodeState: 0
   ghostType: 1
   respawnState: 0
   ghostNodeLeft: {fileID: 438482661}
@@ -42289,6 +42402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ghostNodeState: 0
+  startGhostNodeState: 0
   ghostType: 2
   respawnState: 0
   ghostNodeLeft: {fileID: 438482661}
@@ -43510,6 +43624,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ghostNodeState: 0
+  startGhostNodeState: 0
   ghostType: 0
   respawnState: 0
   ghostNodeLeft: {fileID: 438482661}
