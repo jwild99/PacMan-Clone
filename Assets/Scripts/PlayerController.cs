@@ -24,6 +24,9 @@ public class PlayerController : MonoBehaviour
 
     public void Setup()
     {
+        animator.SetBool("dead", false);
+        animator.SetBool("moving", false);
+
         movementController.currentNode = startNode;
         movementController.direction = "left";
         movementController.lastMovingDirection = "left";
@@ -32,7 +35,6 @@ public class PlayerController : MonoBehaviour
 
         transform.position = startPosition;
         animator.speed = 1;
-        animator.SetBool("moving", false);
     }
 
     public void Stop()
@@ -94,7 +96,10 @@ public class PlayerController : MonoBehaviour
 
     public void Death()
     {
+        Debug.Log("Entered Death Function");
+
         animator.SetBool("moving", false);
         animator.SetBool("dead", true);
+        animator.speed = 1;
     }
 }
