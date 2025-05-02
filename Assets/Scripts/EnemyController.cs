@@ -169,7 +169,7 @@ public class EnemyController : MonoBehaviour
         }
         else
         {
-            movementController.SetSpeed(3);
+            movementController.SetSpeed(2);
         }
     }
 

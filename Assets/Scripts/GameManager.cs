@@ -58,6 +58,12 @@ public class GameManager : MonoBehaviour
     public int lives;
     public int currentLevel;
 
+    public int[] ghostModeTimers = new int[] {7, 20, 7, 20, 5, 20, 5};
+    public int ghostModeTimerIndex;
+    public float ghostModeTimer;
+    public bool runningTimer;
+    public bool completedTimer;
+
     public enum GhostMode
     {
         chase,
@@ -92,6 +98,11 @@ public class GameManager : MonoBehaviour
     public IEnumerator Setup()
     {
         Debug.Log("Setup started.");
+
+        ghostModeTimerIndex = 0;
+        ghostModeTimer = 0f;
+        completedTimer = false;
+        runningTimer = true;
 
         gameOverText.enabled = false;
 
@@ -174,7 +185,35 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!gameIsRunning)
+        {
+            return;
+        }
 
+        if (!completedTimer && runningTimer)
+        {
+            ghostModeTimer += Time.deltaTime;
+            if (ghostModeTimer >= ghostModeTimers[ghostModeTimerIndex])
+            {
+                ghostModeTimer = 0;
+                ghostModeTimerIndex ++;
+                if (currentGhostMode == GhostMode.chase)
+                {
+                    currentGhostMode = GhostMode.scatter;
+                }
+                else
+                {
+                    currentGhostMode = GhostMode.chase;
+                }
+
+                if (ghostModeTimerIndex == ghostModeTimers.Length)
+                {
+                    completedTimer = true;
+                    runningTimer = false;
+                    currentGhostMode = GhostMode.chase;
+                }
+            }
+        }
     }
 
     public void GotPelletFromNodeController(NodeController nodeController)
