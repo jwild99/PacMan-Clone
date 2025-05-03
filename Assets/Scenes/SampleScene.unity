@@ -229,6 +229,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &3943083
 GameObject:
   m_ObjectHideFlags: 0
@@ -336,6 +338,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &9597278
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,6 +531,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &16976960
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,6 +640,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &18632823
 GameObject:
   m_ObjectHideFlags: 0
@@ -741,6 +749,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &21109965
 GameObject:
   m_ObjectHideFlags: 0
@@ -932,6 +942,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &30273297
 GameObject:
   m_ObjectHideFlags: 0
@@ -1241,6 +1253,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &33987972
 GameObject:
   m_ObjectHideFlags: 0
@@ -1752,6 +1766,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &53712367
 GameObject:
   m_ObjectHideFlags: 0
@@ -1859,6 +1875,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &54284781
 GameObject:
   m_ObjectHideFlags: 0
@@ -2134,6 +2152,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &71882367
 GameObject:
   m_ObjectHideFlags: 0
@@ -2241,6 +2261,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &75312507
 GameObject:
   m_ObjectHideFlags: 0
@@ -2348,6 +2370,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &75451211
 GameObject:
   m_ObjectHideFlags: 0
@@ -2539,6 +2563,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &82055137
 GameObject:
   m_ObjectHideFlags: 0
@@ -2646,6 +2672,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &84363850
 GameObject:
   m_ObjectHideFlags: 0
@@ -2707,6 +2735,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 1
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!61 &84363853
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2859,6 +2889,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &90501815
 GameObject:
   m_ObjectHideFlags: 0
@@ -2966,6 +2998,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &91920623
 GameObject:
   m_ObjectHideFlags: 0
@@ -3157,6 +3191,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &93346360
 GameObject:
   m_ObjectHideFlags: 0
@@ -3264,6 +3300,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &94241907
 GameObject:
   m_ObjectHideFlags: 0
@@ -3371,6 +3409,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &97816035
 GameObject:
   m_ObjectHideFlags: 0
@@ -3684,6 +3724,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &110669093
 GameObject:
   m_ObjectHideFlags: 0
@@ -3745,6 +3787,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 1
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!61 &110669096
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3981,6 +4025,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &114965112
 GameObject:
   m_ObjectHideFlags: 0
@@ -4088,6 +4134,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &117517181
 GameObject:
   m_ObjectHideFlags: 0
@@ -4195,6 +4243,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &125997418
 GameObject:
   m_ObjectHideFlags: 0
@@ -4470,6 +4520,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &131276259
 GameObject:
   m_ObjectHideFlags: 0
@@ -4577,6 +4629,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &134079241
 GameObject:
   m_ObjectHideFlags: 0
@@ -4970,6 +5024,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &155734005
 GameObject:
   m_ObjectHideFlags: 0
@@ -5161,6 +5217,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &160941168
 GameObject:
   m_ObjectHideFlags: 0
@@ -5562,7 +5620,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1695320544}
-  m_Father: {fileID: 1080965368}
+  m_Father: {fileID: 295715351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &181305644
 BoxCollider2D:
@@ -5637,6 +5695,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 1
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &183412209
 GameObject:
   m_ObjectHideFlags: 0
@@ -5851,6 +5911,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1808983663}
+  - {fileID: 582801596}
   - {fileID: 1352810492}
   - {fileID: 1459609135}
   m_Father: {fileID: 0}
@@ -6051,6 +6112,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &205830921
 GameObject:
   m_ObjectHideFlags: 0
@@ -6158,6 +6221,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &206049662
 GameObject:
   m_ObjectHideFlags: 0
@@ -6265,6 +6330,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &208622621
 GameObject:
   m_ObjectHideFlags: 0
@@ -6456,6 +6523,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &216748362
 GameObject:
   m_ObjectHideFlags: 0
@@ -6563,6 +6632,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &217331118
 GameObject:
   m_ObjectHideFlags: 0
@@ -6828,6 +6899,7 @@ GameObject:
   - component: {fileID: 229806653}
   - component: {fileID: 229806652}
   - component: {fileID: 229806651}
+  - component: {fileID: 229806656}
   m_Layer: 0
   m_Name: Orange
   m_TagString: Enemy
@@ -6922,7 +6994,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d384d14be21514a45aca132bddfac6f6, type: 3}
-  m_Color: {r: 0.98039216, g: 0.54509807, b: 0.050980393, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6992,6 +7064,8 @@ MonoBehaviour:
   isVisible: 1
   ghostSprite: {fileID: 0}
   eyeSprite: {fileID: 2004253256}
+  animator: {fileID: 0}
+  color: {r: 0.98039216, g: 0.54509807, b: 0.050980393, a: 1}
 --- !u!4 &229806655
 Transform:
   m_ObjectHideFlags: 0
@@ -7008,6 +7082,27 @@ Transform:
   - {fileID: 2004253255}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &229806656
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 229806650}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7d7a6aedc7a8042c59ef5e7581fa56b2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &230209122
 GameObject:
   m_ObjectHideFlags: 0
@@ -7595,6 +7690,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &257139994
 GameObject:
   m_ObjectHideFlags: 0
@@ -7903,6 +8000,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &266942117
 GameObject:
   m_ObjectHideFlags: 0
@@ -8094,6 +8193,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &267719842
 GameObject:
   m_ObjectHideFlags: 0
@@ -8201,6 +8302,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &269943921
 GameObject:
   m_ObjectHideFlags: 0
@@ -8312,7 +8415,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 838868172}
@@ -8358,7 +8461,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 54a578b42a7ca4ac2bc9cefae3a9e136, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7346b137d2da24841ae81d433d8bb59c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -8476,6 +8579,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &283930838
 GameObject:
   m_ObjectHideFlags: 0
@@ -8667,6 +8772,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &293193270
 GameObject:
   m_ObjectHideFlags: 0
@@ -8858,6 +8965,43 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
+--- !u!1 &295715350
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 295715351}
+  m_Layer: 0
+  m_Name: PowerPelletNodes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &295715351
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 295715350}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 838868172}
+  - {fileID: 1841976281}
+  - {fileID: 1061742318}
+  - {fileID: 181305642}
+  m_Father: {fileID: 1857858718}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &297618679
 GameObject:
   m_ObjectHideFlags: 0
@@ -8965,6 +9109,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &308760747
 GameObject:
   m_ObjectHideFlags: 0
@@ -9072,6 +9218,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &309285181
 GameObject:
   m_ObjectHideFlags: 0
@@ -9263,6 +9411,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &311223466
 GameObject:
   m_ObjectHideFlags: 0
@@ -9370,6 +9520,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &311282948
 GameObject:
   m_ObjectHideFlags: 0
@@ -9561,6 +9713,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &317717391
 GameObject:
   m_ObjectHideFlags: 0
@@ -9668,6 +9822,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &321488034
 GameObject:
   m_ObjectHideFlags: 0
@@ -9977,6 +10133,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &330710711
 GameObject:
   m_ObjectHideFlags: 0
@@ -10369,6 +10527,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 1
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &344702984
 GameObject:
   m_ObjectHideFlags: 0
@@ -10476,6 +10636,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &346677453
 GameObject:
   m_ObjectHideFlags: 0
@@ -10751,6 +10913,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &353598366
 GameObject:
   m_ObjectHideFlags: 0
@@ -10941,6 +11105,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 1
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &369041169
 GameObject:
   m_ObjectHideFlags: 0
@@ -11300,6 +11466,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &383073718
 GameObject:
   m_ObjectHideFlags: 0
@@ -11929,6 +12097,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &403142688
 GameObject:
   m_ObjectHideFlags: 0
@@ -12036,6 +12206,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &412682069
 GameObject:
   m_ObjectHideFlags: 0
@@ -12143,6 +12315,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &417116390
 GameObject:
   m_ObjectHideFlags: 0
@@ -12250,6 +12424,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &422873166
 GameObject:
   m_ObjectHideFlags: 0
@@ -12357,6 +12533,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &438482661
 GameObject:
   m_ObjectHideFlags: 0
@@ -12418,6 +12596,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!61 &438482664
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12570,6 +12750,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &443138936
 GameObject:
   m_ObjectHideFlags: 0
@@ -12761,6 +12943,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &450583151
 GameObject:
   m_ObjectHideFlags: 0
@@ -13481,6 +13665,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &472090653
 GameObject:
   m_ObjectHideFlags: 0
@@ -13588,6 +13774,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &475653280
 GameObject:
   m_ObjectHideFlags: 0
@@ -13779,6 +13967,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &496916199
 GameObject:
   m_ObjectHideFlags: 0
@@ -13970,6 +14160,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &500465629
 GameObject:
   m_ObjectHideFlags: 0
@@ -14077,6 +14269,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &500506993
 GameObject:
   m_ObjectHideFlags: 0
@@ -14184,6 +14378,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &500794576
 GameObject:
   m_ObjectHideFlags: 0
@@ -14375,6 +14571,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &506334129
 GameObject:
   m_ObjectHideFlags: 0
@@ -14482,6 +14680,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &511403776
 GameObject:
   m_ObjectHideFlags: 0
@@ -14589,6 +14789,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &512516510
 GameObject:
   m_ObjectHideFlags: 0
@@ -14864,6 +15066,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &515423447
 GameObject:
   m_ObjectHideFlags: 0
@@ -14971,6 +15175,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &515524241
 GameObject:
   m_ObjectHideFlags: 0
@@ -15078,6 +15284,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &517882688
 GameObject:
   m_ObjectHideFlags: 0
@@ -15529,6 +15737,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &535837211
 GameObject:
   m_ObjectHideFlags: 0
@@ -15636,6 +15846,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &541145214
 GameObject:
   m_ObjectHideFlags: 0
@@ -15743,6 +15955,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &551153618
 GameObject:
   m_ObjectHideFlags: 0
@@ -15850,6 +16064,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &551692148
 GameObject:
   m_ObjectHideFlags: 0
@@ -16041,6 +16257,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &557784501
 GameObject:
   m_ObjectHideFlags: 0
@@ -16148,6 +16366,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &566671072
 GameObject:
   m_ObjectHideFlags: 0
@@ -16399,6 +16619,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &575331091
 GameObject:
   m_ObjectHideFlags: 0
@@ -16506,6 +16728,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &577676731
 GameObject:
   m_ObjectHideFlags: 0
@@ -16613,6 +16837,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &581493451
 GameObject:
   m_ObjectHideFlags: 0
@@ -16697,6 +16923,85 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &582801595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 582801596}
+  - component: {fileID: 582801598}
+  - component: {fileID: 582801597}
+  m_Layer: 5
+  m_Name: LivesText
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &582801596
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582801595}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 190891700}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 220, y: 350}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &582801597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582801595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 18
+    m_FontStyle: 1
+    m_BestFit: 0
+    m_MinSize: 1
+    m_MaxSize: 40
+    m_Alignment: 0
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: 'Lives: 3'
+--- !u!222 &582801598
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 582801595}
+  m_CullTransparentMesh: 1
 --- !u!1 &585939018
 GameObject:
   m_ObjectHideFlags: 0
@@ -16972,6 +17277,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &603137567
 GameObject:
   m_ObjectHideFlags: 0
@@ -17163,6 +17470,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &605851973
 GameObject:
   m_ObjectHideFlags: 0
@@ -17270,6 +17579,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &610036128
 GameObject:
   m_ObjectHideFlags: 0
@@ -17377,6 +17688,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &621320984
 GameObject:
   m_ObjectHideFlags: 0
@@ -17484,6 +17797,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &622378171
 GameObject:
   m_ObjectHideFlags: 0
@@ -17675,6 +17990,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &626502254
 GameObject:
   m_ObjectHideFlags: 0
@@ -17782,6 +18099,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &627558603
 GameObject:
   m_ObjectHideFlags: 0
@@ -17973,6 +18292,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &634800232
 GameObject:
   m_ObjectHideFlags: 0
@@ -18248,6 +18569,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &640583686
 GameObject:
   m_ObjectHideFlags: 0
@@ -18607,6 +18930,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &664827623
 GameObject:
   m_ObjectHideFlags: 0
@@ -18820,6 +19145,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &668443773
 GameObject:
   m_ObjectHideFlags: 0
@@ -18927,6 +19254,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &669999948
 GameObject:
   m_ObjectHideFlags: 0
@@ -18973,6 +19302,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!61 &669999950
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19048,6 +19379,9 @@ GameObject:
   - component: {fileID: 680899063}
   - component: {fileID: 680899065}
   - component: {fileID: 680899066}
+  - component: {fileID: 680899067}
+  - component: {fileID: 680899069}
+  - component: {fileID: 680899068}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -19073,6 +19407,9 @@ MonoBehaviour:
   siren: {fileID: 680899062}
   munch1: {fileID: 680899064}
   munch2: {fileID: 680899063}
+  powerPelletAudio: {fileID: 680899067}
+  respawningAudio: {fileID: 680899069}
+  ghostEatenAudio: {fileID: 680899068}
   currentMunch: 0
   score: 0
   scoreText: {fileID: 1808983664}
@@ -19095,6 +19432,11 @@ MonoBehaviour:
   gameIsRunning: 0
   blackBackground: {fileID: 1352810493}
   gameOverText: {fileID: 1459609136}
+  livesText: {fileID: 582801597}
+  isPowerPelletRunning: 0
+  currenPowerPelletTime: 0
+  powerPelletTimer: 8
+  powerPelletMultiplyer: 1
   nodeControllers: []
   newGame: 0
   clearedLevel: 0
@@ -19603,6 +19945,294 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!82 &680899067
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680899059}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 0459e563220d341f2bfb31d21de9ba17, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &680899068
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680899059}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 86bc8c6b859244c1db46e4d187cdcbc3, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!82 &680899069
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 680899059}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 003d47d15900c468ea2c6b4e1c138e78, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &682355882
 GameObject:
   m_ObjectHideFlags: 0
@@ -19710,6 +20340,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &685400273
 GameObject:
   m_ObjectHideFlags: 0
@@ -19985,6 +20617,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &691433806
 GameObject:
   m_ObjectHideFlags: 0
@@ -20176,6 +20810,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &700475245
 GameObject:
   m_ObjectHideFlags: 0
@@ -20283,6 +20919,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &700862111
 GameObject:
   m_ObjectHideFlags: 0
@@ -20390,6 +21028,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &700983680
 GameObject:
   m_ObjectHideFlags: 0
@@ -20974,6 +21614,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!61 &721114988
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21141,6 +21783,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &728344447
 GameObject:
   m_ObjectHideFlags: 0
@@ -21247,6 +21891,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 1
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &733655991
 GameObject:
   m_ObjectHideFlags: 0
@@ -21353,6 +21999,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &741961146
 GameObject:
   m_ObjectHideFlags: 0
@@ -21628,6 +22276,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &754380888
 GameObject:
   m_ObjectHideFlags: 0
@@ -22188,6 +22838,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &770096935
 GameObject:
   m_ObjectHideFlags: 0
@@ -22295,6 +22947,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &771163689
 GameObject:
   m_ObjectHideFlags: 0
@@ -22402,6 +23056,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &773500283
 GameObject:
   m_ObjectHideFlags: 0
@@ -22761,6 +23417,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &793016894
 GameObject:
   m_ObjectHideFlags: 0
@@ -22868,6 +23526,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &793172874
 GameObject:
   m_ObjectHideFlags: 0
@@ -22975,6 +23635,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &797716992
 GameObject:
   m_ObjectHideFlags: 0
@@ -23036,6 +23698,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 1
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!61 &797716995
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23271,6 +23935,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 1
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &806601600
 GameObject:
   m_ObjectHideFlags: 0
@@ -23378,6 +24044,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &810114559
 GameObject:
   m_ObjectHideFlags: 0
@@ -23569,6 +24237,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &818915191
 GameObject:
   m_ObjectHideFlags: 0
@@ -24012,6 +24682,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &835167088
 GameObject:
   m_ObjectHideFlags: 0
@@ -24119,6 +24791,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &836680673
 GameObject:
   m_ObjectHideFlags: 0
@@ -24235,7 +24909,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 271647021}
-  m_Father: {fileID: 1080965368}
+  m_Father: {fileID: 295715351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &838868174
 BoxCollider2D:
@@ -24310,6 +24984,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 1
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &842461844
 GameObject:
   m_ObjectHideFlags: 0
@@ -24585,6 +25261,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &846276006
 GameObject:
   m_ObjectHideFlags: 0
@@ -25028,6 +25706,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &853659319
 GameObject:
   m_ObjectHideFlags: 0
@@ -25303,6 +25983,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &865154524
 GameObject:
   m_ObjectHideFlags: 0
@@ -25578,6 +26260,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &874886793
 GameObject:
   m_ObjectHideFlags: 0
@@ -25685,6 +26369,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &875123940
 GameObject:
   m_ObjectHideFlags: 0
@@ -25792,6 +26478,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &876402989
 GameObject:
   m_ObjectHideFlags: 0
@@ -26067,6 +26755,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &883801127
 GameObject:
   m_ObjectHideFlags: 0
@@ -26342,6 +27032,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &891020085
 GameObject:
   m_ObjectHideFlags: 0
@@ -26735,6 +27427,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &898924100
 GameObject:
   m_ObjectHideFlags: 0
@@ -26842,6 +27536,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &899311772
 GameObject:
   m_ObjectHideFlags: 0
@@ -27033,6 +27729,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &903481758
 GameObject:
   m_ObjectHideFlags: 0
@@ -27140,6 +27838,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &904034528
 GameObject:
   m_ObjectHideFlags: 0
@@ -27331,6 +28031,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &923702486
 GameObject:
   m_ObjectHideFlags: 0
@@ -27606,6 +28308,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &932583472
 GameObject:
   m_ObjectHideFlags: 0
@@ -27787,6 +28491,7 @@ GameObject:
   - component: {fileID: 934364267}
   - component: {fileID: 934364266}
   - component: {fileID: 934364265}
+  - component: {fileID: 934364270}
   m_Layer: 0
   m_Name: Blue
   m_TagString: Enemy
@@ -27881,7 +28586,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d384d14be21514a45aca132bddfac6f6, type: 3}
-  m_Color: {r: 0.019607844, g: 0.98039216, b: 0.98039216, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -27951,6 +28656,8 @@ MonoBehaviour:
   isVisible: 1
   ghostSprite: {fileID: 0}
   eyeSprite: {fileID: 647643692}
+  animator: {fileID: 0}
+  color: {r: 0.019607844, g: 0.98039216, b: 0.98039216, a: 1}
 --- !u!4 &934364269
 Transform:
   m_ObjectHideFlags: 0
@@ -27967,6 +28674,27 @@ Transform:
   - {fileID: 647643691}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &934364270
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934364264}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7d7a6aedc7a8042c59ef5e7581fa56b2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &935175373
 GameObject:
   m_ObjectHideFlags: 0
@@ -28158,6 +28886,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &942539831
 GameObject:
   m_ObjectHideFlags: 0
@@ -28265,6 +28995,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &944431856
 GameObject:
   m_ObjectHideFlags: 0
@@ -28372,6 +29104,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &948376900
 GameObject:
   m_ObjectHideFlags: 0
@@ -28563,6 +29297,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &954112974
 GameObject:
   m_ObjectHideFlags: 0
@@ -28788,6 +29524,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &955679697
 GameObject:
   m_ObjectHideFlags: 0
@@ -29181,6 +29919,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &969329789
 GameObject:
   m_ObjectHideFlags: 0
@@ -29372,6 +30112,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &977522896
 GameObject:
   m_ObjectHideFlags: 0
@@ -29849,6 +30591,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &993205196
 GameObject:
   m_ObjectHideFlags: 0
@@ -30124,6 +30868,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &995448756
 GameObject:
   m_ObjectHideFlags: 0
@@ -30517,6 +31263,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1012463216
 GameObject:
   m_ObjectHideFlags: 0
@@ -30708,6 +31456,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1022856858
 GameObject:
   m_ObjectHideFlags: 0
@@ -30932,6 +31682,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1032668415
 GameObject:
   m_ObjectHideFlags: 0
@@ -31415,6 +32167,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1045872060
 GameObject:
   m_ObjectHideFlags: 0
@@ -31699,7 +32453,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1385585844}
-  m_Father: {fileID: 1080965368}
+  m_Father: {fileID: 295715351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1061742320
 BoxCollider2D:
@@ -31774,6 +32528,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 1
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1064184333
 GameObject:
   m_ObjectHideFlags: 0
@@ -31881,6 +32637,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1069140480
 GameObject:
   m_ObjectHideFlags: 0
@@ -31988,6 +32746,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1073723885
 GameObject:
   m_ObjectHideFlags: 0
@@ -32095,6 +32855,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1078125815
 GameObject:
   m_ObjectHideFlags: 0
@@ -32202,6 +32964,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1078965533
 GameObject:
   m_ObjectHideFlags: 0
@@ -32507,7 +33271,6 @@ Transform:
   - {fileID: 90501816}
   - {fileID: 1224030278}
   - {fileID: 1248997120}
-  - {fileID: 181305642}
   - {fileID: 1032371189}
   - {fileID: 2103597567}
   - {fileID: 1742673040}
@@ -32515,7 +33278,6 @@ Transform:
   - {fileID: 1625084196}
   - {fileID: 31938216}
   - {fileID: 748981151}
-  - {fileID: 1841976281}
   - {fileID: 206049663}
   - {fileID: 766640645}
   - {fileID: 375710706}
@@ -32735,7 +33497,6 @@ Transform:
   - {fileID: 1760090143}
   - {fileID: 793016895}
   - {fileID: 532117264}
-  - {fileID: 1061742318}
   - {fileID: 316568742}
   - {fileID: 317717392}
   - {fileID: 972907616}
@@ -32744,7 +33505,6 @@ Transform:
   - {fileID: 82055138}
   - {fileID: 622380011}
   - {fileID: 835167089}
-  - {fileID: 838868172}
   m_Father: {fileID: 1857858718}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1081033870
@@ -32853,6 +33613,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 1
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1082435217
 GameObject:
   m_ObjectHideFlags: 0
@@ -32998,6 +33760,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 1
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!61 &1082439503
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33234,6 +33998,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1096532588
 GameObject:
   m_ObjectHideFlags: 0
@@ -33425,6 +34191,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1104397679
 GameObject:
   m_ObjectHideFlags: 0
@@ -33532,6 +34300,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1116913309
 GameObject:
   m_ObjectHideFlags: 0
@@ -34114,6 +34884,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1130301811
 GameObject:
   m_ObjectHideFlags: 0
@@ -34389,6 +35161,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1132881602
 GameObject:
   m_ObjectHideFlags: 0
@@ -34580,6 +35354,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1141636702
 GameObject:
   m_ObjectHideFlags: 0
@@ -34687,6 +35463,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1142310164
 GameObject:
   m_ObjectHideFlags: 0
@@ -34793,6 +35571,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 1
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1151665183
 GameObject:
   m_ObjectHideFlags: 0
@@ -34984,6 +35764,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1160988621
 GameObject:
   m_ObjectHideFlags: 0
@@ -35091,6 +35873,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1167309936
 GameObject:
   m_ObjectHideFlags: 0
@@ -35198,6 +35982,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1167458569
 GameObject:
   m_ObjectHideFlags: 0
@@ -35305,6 +36091,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1186581756
 GameObject:
   m_ObjectHideFlags: 0
@@ -35496,6 +36284,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1193267569
 GameObject:
   m_ObjectHideFlags: 0
@@ -35721,6 +36511,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1207889278
 GameObject:
   m_ObjectHideFlags: 0
@@ -35828,6 +36620,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1211298154
 GameObject:
   m_ObjectHideFlags: 0
@@ -36271,6 +37065,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1219959860
 GameObject:
   m_ObjectHideFlags: 0
@@ -36332,6 +37128,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 1
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!61 &1219959863
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -36568,6 +37366,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1224294159
 GameObject:
   m_ObjectHideFlags: 0
@@ -36675,6 +37475,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1224389624
 GameObject:
   m_ObjectHideFlags: 0
@@ -36815,6 +37617,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1236012657
 GameObject:
   m_ObjectHideFlags: 0
@@ -36922,6 +37726,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1236785380
 GameObject:
   m_ObjectHideFlags: 0
@@ -37029,6 +37835,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1236939462
 GameObject:
   m_ObjectHideFlags: 0
@@ -37169,6 +37977,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1242941352
 GameObject:
   m_ObjectHideFlags: 0
@@ -37276,6 +38086,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1244153480
 GameObject:
   m_ObjectHideFlags: 0
@@ -37383,6 +38195,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1248997119
 GameObject:
   m_ObjectHideFlags: 0
@@ -37490,6 +38304,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1249871773
 GameObject:
   m_ObjectHideFlags: 0
@@ -38269,6 +39085,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1289880324
 GameObject:
   m_ObjectHideFlags: 0
@@ -38746,6 +39564,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1311331744
 GameObject:
   m_ObjectHideFlags: 0
@@ -38853,6 +39673,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1316733369
 GameObject:
   m_ObjectHideFlags: 0
@@ -39246,6 +40068,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1340471412
 GameObject:
   m_ObjectHideFlags: 0
@@ -39764,6 +40588,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1371378575
 GameObject:
   m_ObjectHideFlags: 0
@@ -39871,6 +40697,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1372604029
 GameObject:
   m_ObjectHideFlags: 0
@@ -39978,6 +40806,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1374389751
 GameObject:
   m_ObjectHideFlags: 0
@@ -40169,6 +40999,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1385585843
 GameObject:
   m_ObjectHideFlags: 0
@@ -40196,7 +41028,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1061742318}
@@ -40242,7 +41074,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 54a578b42a7ca4ac2bc9cefae3a9e136, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7346b137d2da24841ae81d433d8bb59c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -40360,6 +41192,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1388097412
 GameObject:
   m_ObjectHideFlags: 0
@@ -40551,6 +41385,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1393099413
 GameObject:
   m_ObjectHideFlags: 0
@@ -40658,6 +41494,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1401303405
 GameObject:
   m_ObjectHideFlags: 0
@@ -40933,6 +41771,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1408444596
 GameObject:
   m_ObjectHideFlags: 0
@@ -41158,6 +41998,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1417328819
 GameObject:
   m_ObjectHideFlags: 0
@@ -41265,6 +42107,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1422468223
 GameObject:
   m_ObjectHideFlags: 0
@@ -41372,6 +42216,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1429144909
 GameObject:
   m_ObjectHideFlags: 0
@@ -41479,6 +42325,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1429666419
 GameObject:
   m_ObjectHideFlags: 0
@@ -41586,6 +42434,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1439109828
 GameObject:
   m_ObjectHideFlags: 0
@@ -41693,6 +42543,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1440398638
 GameObject:
   m_ObjectHideFlags: 0
@@ -41800,6 +42652,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1441052780
 GameObject:
   m_ObjectHideFlags: 0
@@ -41991,6 +42845,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1444089294
 GameObject:
   m_ObjectHideFlags: 0
@@ -42098,6 +42954,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1448657934
 GameObject:
   m_ObjectHideFlags: 0
@@ -42205,6 +43063,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1450396516
 GameObject:
   m_ObjectHideFlags: 0
@@ -42386,6 +43246,7 @@ GameObject:
   - component: {fileID: 1456546127}
   - component: {fileID: 1456546126}
   - component: {fileID: 1456546125}
+  - component: {fileID: 1456546130}
   m_Layer: 0
   m_Name: Pink
   m_TagString: Enemy
@@ -42480,7 +43341,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d384d14be21514a45aca132bddfac6f6, type: 3}
-  m_Color: {r: 0.98039216, g: 0.5568628, b: 0.88235295, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -42545,6 +43406,8 @@ MonoBehaviour:
   isVisible: 1
   ghostSprite: {fileID: 0}
   eyeSprite: {fileID: 1151665185}
+  animator: {fileID: 0}
+  color: {r: 0.98039216, g: 0.5568628, b: 0.88235295, a: 1}
 --- !u!4 &1456546129
 Transform:
   m_ObjectHideFlags: 0
@@ -42561,6 +43424,27 @@ Transform:
   - {fileID: 1151665184}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &1456546130
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1456546124}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7d7a6aedc7a8042c59ef5e7581fa56b2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1459609134
 GameObject:
   m_ObjectHideFlags: 0
@@ -42747,6 +43631,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1462830503
 GameObject:
   m_ObjectHideFlags: 0
@@ -42854,6 +43740,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1465859340
 GameObject:
   m_ObjectHideFlags: 0
@@ -43247,6 +44135,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1478615316
 GameObject:
   m_ObjectHideFlags: 0
@@ -43606,6 +44496,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1496942165
 GameObject:
   m_ObjectHideFlags: 0
@@ -43787,6 +44679,7 @@ GameObject:
   - component: {fileID: 1509905293}
   - component: {fileID: 1509905296}
   - component: {fileID: 1509905297}
+  - component: {fileID: 1509905298}
   m_Layer: 0
   m_Name: Red
   m_TagString: Enemy
@@ -43849,6 +44742,8 @@ MonoBehaviour:
   isVisible: 1
   ghostSprite: {fileID: 0}
   eyeSprite: {fileID: 2096460983}
+  animator: {fileID: 0}
+  color: {r: 1, g: 0, b: 0, a: 1}
 --- !u!4 &1509905295
 Transform:
   m_ObjectHideFlags: 0
@@ -43907,7 +44802,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d384d14be21514a45aca132bddfac6f6, type: 3}
-  m_Color: {r: 0.98039216, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -43962,6 +44857,27 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.5594958, y: 1.5594916}
   m_EdgeRadius: 0
+--- !u!95 &1509905298
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1509905292}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7d7a6aedc7a8042c59ef5e7581fa56b2, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1510362579
 GameObject:
   m_ObjectHideFlags: 0
@@ -44557,6 +45473,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1524953086
 GameObject:
   m_ObjectHideFlags: 0
@@ -44832,6 +45750,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1540096111
 GameObject:
   m_ObjectHideFlags: 0
@@ -44939,6 +45859,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1543919199
 GameObject:
   m_ObjectHideFlags: 0
@@ -45130,6 +46052,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1547536398
 GameObject:
   m_ObjectHideFlags: 0
@@ -45321,6 +46245,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1572151008
 GameObject:
   m_ObjectHideFlags: 0
@@ -45512,6 +46438,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1581933638
 GameObject:
   m_ObjectHideFlags: 0
@@ -45703,6 +46631,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1583002701
 GameObject:
   m_ObjectHideFlags: 0
@@ -45894,6 +46824,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1588454127
 GameObject:
   m_ObjectHideFlags: 0
@@ -46001,6 +46933,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1593271472
 GameObject:
   m_ObjectHideFlags: 0
@@ -46108,6 +47042,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1598184736
 GameObject:
   m_ObjectHideFlags: 0
@@ -46551,6 +47487,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1613728751
 GameObject:
   m_ObjectHideFlags: 0
@@ -46658,6 +47596,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1614761051
 GameObject:
   m_ObjectHideFlags: 0
@@ -46933,6 +47873,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1621861652
 GameObject:
   m_ObjectHideFlags: 0
@@ -47124,6 +48066,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1627343885
 GameObject:
   m_ObjectHideFlags: 0
@@ -47231,6 +48175,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1628251701
 GameObject:
   m_ObjectHideFlags: 0
@@ -47337,6 +48283,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 1
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1631545817
 GameObject:
   m_ObjectHideFlags: 0
@@ -47444,6 +48392,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1649106619
 GameObject:
   m_ObjectHideFlags: 0
@@ -47551,6 +48501,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1649432567
 GameObject:
   m_ObjectHideFlags: 0
@@ -47658,6 +48610,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1649683020
 GameObject:
   m_ObjectHideFlags: 0
@@ -48135,6 +49089,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1664798041
 GameObject:
   m_ObjectHideFlags: 0
@@ -48242,6 +49198,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1665312835
 GameObject:
   m_ObjectHideFlags: 0
@@ -48433,6 +49391,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1666429014
 GameObject:
   m_ObjectHideFlags: 0
@@ -48540,6 +49500,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1667412235
 GameObject:
   m_ObjectHideFlags: 0
@@ -48647,6 +49609,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1669553600
 GameObject:
   m_ObjectHideFlags: 0
@@ -48754,6 +49718,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1671490998
 GameObject:
   m_ObjectHideFlags: 0
@@ -48860,6 +49826,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 1
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1673106548
 GameObject:
   m_ObjectHideFlags: 0
@@ -48967,6 +49935,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1673425389
 GameObject:
   m_ObjectHideFlags: 0
@@ -49158,6 +50128,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1681054052
 GameObject:
   m_ObjectHideFlags: 0
@@ -49349,6 +50321,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1686707868
 GameObject:
   m_ObjectHideFlags: 0
@@ -49540,6 +50514,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1688476281
 GameObject:
   m_ObjectHideFlags: 0
@@ -49647,6 +50623,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1689212559
 GameObject:
   m_ObjectHideFlags: 0
@@ -49758,7 +50736,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 181305642}
@@ -49804,7 +50782,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 54a578b42a7ca4ac2bc9cefae3a9e136, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7346b137d2da24841ae81d433d8bb59c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -49922,6 +50900,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1699090260
 GameObject:
   m_ObjectHideFlags: 0
@@ -50029,6 +51009,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1700075441
 GameObject:
   m_ObjectHideFlags: 0
@@ -50338,6 +51320,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1701936024
 GameObject:
   m_ObjectHideFlags: 0
@@ -50563,6 +51547,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1707024094
 GameObject:
   m_ObjectHideFlags: 0
@@ -50670,6 +51656,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1715013175
 GameObject:
   m_ObjectHideFlags: 0
@@ -50861,6 +51849,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1724414709
 GameObject:
   m_ObjectHideFlags: 0
@@ -51624,6 +52614,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1742147466
 GameObject:
   m_ObjectHideFlags: 0
@@ -51899,6 +52891,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1747943468
 GameObject:
   m_ObjectHideFlags: 0
@@ -52006,6 +53000,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1754316369
 GameObject:
   m_ObjectHideFlags: 0
@@ -52197,6 +53193,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1758655145
 GameObject:
   m_ObjectHideFlags: 0
@@ -52388,6 +53386,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1760975102
 GameObject:
   m_ObjectHideFlags: 0
@@ -52495,6 +53495,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1764770982
 GameObject:
   m_ObjectHideFlags: 0
@@ -52686,6 +53688,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1767545428
 GameObject:
   m_ObjectHideFlags: 0
@@ -52793,6 +53797,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1778041582
 GameObject:
   m_ObjectHideFlags: 0
@@ -52900,6 +53906,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1778461550
 GameObject:
   m_ObjectHideFlags: 0
@@ -53258,6 +54266,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 1
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1797880454
 GameObject:
   m_ObjectHideFlags: 0
@@ -53365,6 +54375,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1798822447
 GameObject:
   m_ObjectHideFlags: 0
@@ -53640,6 +54652,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1808983662
 GameObject:
   m_ObjectHideFlags: 0
@@ -53674,7 +54688,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -220, y: 440}
+  m_AnchoredPosition: {x: -180, y: 350}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1808983664
@@ -53910,6 +54924,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1815485230
 GameObject:
   m_ObjectHideFlags: 0
@@ -54017,6 +55033,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1817291475
 GameObject:
   m_ObjectHideFlags: 0
@@ -54124,6 +55142,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1817301893
 GameObject:
   m_ObjectHideFlags: 0
@@ -54483,6 +55503,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1826912995
 GameObject:
   m_ObjectHideFlags: 0
@@ -54708,6 +55730,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1830073750
 GameObject:
   m_ObjectHideFlags: 0
@@ -54815,6 +55839,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1832380747
 GameObject:
   m_ObjectHideFlags: 0
@@ -54922,6 +55948,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1839811856
 GameObject:
   m_ObjectHideFlags: 0
@@ -54949,7 +55977,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1841976281}
@@ -54995,7 +56023,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 54a578b42a7ca4ac2bc9cefae3a9e136, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7346b137d2da24841ae81d433d8bb59c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -55038,7 +56066,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1839811857}
-  m_Father: {fileID: 1080965368}
+  m_Father: {fileID: 295715351}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1841976283
 BoxCollider2D:
@@ -55113,6 +56141,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 1
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1842785305
 GameObject:
   m_ObjectHideFlags: 0
@@ -55520,6 +56550,7 @@ Transform:
   - {fileID: 1931712469}
   - {fileID: 1033077071}
   - {fileID: 463907171}
+  - {fileID: 295715351}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1861362963
@@ -55965,6 +56996,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1884104598
 GameObject:
   m_ObjectHideFlags: 0
@@ -56156,6 +57189,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1889290824
 GameObject:
   m_ObjectHideFlags: 0
@@ -56263,6 +57298,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1889669410
 GameObject:
   m_ObjectHideFlags: 0
@@ -56370,6 +57407,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1893131860
 GameObject:
   m_ObjectHideFlags: 0
@@ -56679,6 +57718,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1903654950
 GameObject:
   m_ObjectHideFlags: 0
@@ -56954,6 +57995,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1911101901
 GameObject:
   m_ObjectHideFlags: 0
@@ -57061,6 +58104,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1914776779
 GameObject:
   m_ObjectHideFlags: 0
@@ -57420,6 +58465,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1927292872
 GameObject:
   m_ObjectHideFlags: 0
@@ -57527,6 +58574,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1927541840
 GameObject:
   m_ObjectHideFlags: 0
@@ -57837,6 +58886,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1943580591
 GameObject:
   m_ObjectHideFlags: 0
@@ -57944,6 +58995,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1955978775
 GameObject:
   m_ObjectHideFlags: 0
@@ -58051,6 +59104,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1958053254
 GameObject:
   m_ObjectHideFlags: 0
@@ -58158,6 +59213,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1963139124
 GameObject:
   m_ObjectHideFlags: 0
@@ -58433,6 +59490,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1967553894
 GameObject:
   m_ObjectHideFlags: 0
@@ -58624,6 +59683,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1968826828
 GameObject:
   m_ObjectHideFlags: 0
@@ -58899,6 +59960,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1974829267
 GameObject:
   m_ObjectHideFlags: 0
@@ -59090,6 +60153,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1987571257
 GameObject:
   m_ObjectHideFlags: 0
@@ -59197,6 +60262,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1989993511
 GameObject:
   m_ObjectHideFlags: 0
@@ -59304,6 +60371,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &1991546496
 GameObject:
   m_ObjectHideFlags: 0
@@ -59831,6 +60900,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2013568409
 GameObject:
   m_ObjectHideFlags: 0
@@ -60106,6 +61177,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2020018282
 GameObject:
   m_ObjectHideFlags: 0
@@ -60297,6 +61370,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2024636985
 GameObject:
   m_ObjectHideFlags: 0
@@ -60572,6 +61647,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2042706753
 GameObject:
   m_ObjectHideFlags: 0
@@ -60847,6 +61924,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2047322227
 GameObject:
   m_ObjectHideFlags: 0
@@ -61155,6 +62234,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 1
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2056228932
 GameObject:
   m_ObjectHideFlags: 0
@@ -61262,6 +62343,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2068813737
 GameObject:
   m_ObjectHideFlags: 0
@@ -61487,6 +62570,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2073157293
 GameObject:
   m_ObjectHideFlags: 0
@@ -61762,6 +62847,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2091020924
 GameObject:
   m_ObjectHideFlags: 0
@@ -62239,6 +63326,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2106452764
 GameObject:
   m_ObjectHideFlags: 0
@@ -62346,6 +63435,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2106951531
 GameObject:
   m_ObjectHideFlags: 0
@@ -62453,6 +63544,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2107035014
 GameObject:
   m_ObjectHideFlags: 0
@@ -62560,6 +63653,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2108723796
 GameObject:
   m_ObjectHideFlags: 0
@@ -62667,6 +63762,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2111138263
 GameObject:
   m_ObjectHideFlags: 0
@@ -63026,6 +64123,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2118770359
 GameObject:
   m_ObjectHideFlags: 0
@@ -63132,6 +64231,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2118927676
 GameObject:
   m_ObjectHideFlags: 0
@@ -63323,6 +64424,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2121651930
 GameObject:
   m_ObjectHideFlags: 0
@@ -63430,6 +64533,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2123079357
 GameObject:
   m_ObjectHideFlags: 0
@@ -63537,6 +64642,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2126057294
 GameObject:
   m_ObjectHideFlags: 0
@@ -63644,6 +64751,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2128874088
 GameObject:
   m_ObjectHideFlags: 0
@@ -63751,6 +64860,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2128955806
 GameObject:
   m_ObjectHideFlags: 0
@@ -63942,6 +65053,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2135982284
 GameObject:
   m_ObjectHideFlags: 0
@@ -64133,6 +65246,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2136824901
 GameObject:
   m_ObjectHideFlags: 0
@@ -64240,6 +65355,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2142089179
 GameObject:
   m_ObjectHideFlags: 0
@@ -64347,6 +65464,8 @@ MonoBehaviour:
   gameManager: {fileID: 0}
   isGhostStartingNode: 0
   isSideNode: 0
+  isPowerPellet: 0
+  PowerPelletBlinkingTimer: 0
 --- !u!1 &2142540327
 GameObject:
   m_ObjectHideFlags: 0
