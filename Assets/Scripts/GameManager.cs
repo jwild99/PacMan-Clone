@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -20,7 +21,7 @@ public class GameManager : MonoBehaviour
     public AudioSource respawningAudio;
     public AudioSource ghostEatenAudio;
 
-   
+
 
     public int currentMunch = 0;
 
@@ -223,7 +224,7 @@ public class GameManager : MonoBehaviour
                 respawningAudio.Play();
             }
         }
-        else 
+        else
         {
             if (respawningAudio.isPlaying)
             {
@@ -389,7 +390,13 @@ public class GameManager : MonoBehaviour
             // display game over text
             gameOverText.enabled = true;
 
+            int highScore = PlayerPrefs.GetInt("HighScore");
+            if (score > highScore)
+                PlayerPrefs.SetInt("HighScore", score);
+
             yield return new WaitForSeconds(3);
+
+            UnityEngine.SceneManagement.SceneManager.LoadScene("_Menu");
         }
 
         StartCoroutine(Setup());
