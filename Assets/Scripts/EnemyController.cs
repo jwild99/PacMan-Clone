@@ -107,6 +107,11 @@ public class EnemyController : MonoBehaviour
             Debug.LogError(name + " has no MovementController.");
         }
 
+        if (gameManager.gameMode == "_Realism_Mode")
+        {
+            color.a = Mathf.Clamp01(0.25f);
+        }
+
         // reset ghost node state back to start state
         ghostNodeState = startGhostNodeState;
 
@@ -155,11 +160,11 @@ public class EnemyController : MonoBehaviour
             {
                 ghostSprite.enabled = true;
             }
-            else 
+            else
             {
                 ghostSprite.enabled = false;
             }
-            
+
             eyeSprite.enabled = true;
         }
         // hide ghost sprites
@@ -174,7 +179,7 @@ public class EnemyController : MonoBehaviour
             eyeSprite.enabled = false;
             ghostSprite.color = new Color(255,255,255,255);
         }
-        else 
+        else
         {
             animator.SetBool("frightened",false);
             animator.SetBool("frightenedBlinking",false);
@@ -191,7 +196,7 @@ public class EnemyController : MonoBehaviour
         {
             animator.SetBool("frightenedBlinking", true);
         }
-        else 
+        else
         {
             animator.SetBool("frightenedBlinking",false);
         }
@@ -206,25 +211,74 @@ public class EnemyController : MonoBehaviour
             testRespawn = false;
         }
 
-        if (movementController.currentNode.GetComponent<NodeController>().isSideNode)
+        if (gameManager.gameMode == "_Hardcore_Mode")
         {
-            movementController.SetSpeed(1);
+            if (movementController.currentNode.GetComponent<NodeController>().isSideNode)
+            {
+                movementController.SetSpeed(2.5f);
+            }
+            else
+            {
+                if (isFrightened)
+                {
+                    movementController.SetSpeed(2.5f);
+                }
+                else if (ghostNodeState == GhostNodeStatesEnum.respawning)
+                {
+                    movementController.SetSpeed(7);
+                }
+                else
+                {
+                    movementController.SetSpeed(3.5f);
+                }
+            }
         }
-        else
+        else if (gameManager.gameMode == "_Normal_Mode")
         {
-            if (isFrightened)
+            if (movementController.currentNode.GetComponent<NodeController>().isSideNode)
             {
                 movementController.SetSpeed(1);
             }
-            else if (ghostNodeState == GhostNodeStatesEnum.respawning)
+            else
             {
-                movementController.SetSpeed(7);
-            }
-            else 
-            {
-                movementController.SetSpeed(2);
+                if (isFrightened)
+                {
+                    movementController.SetSpeed(1);
+                }
+                else if (ghostNodeState == GhostNodeStatesEnum.respawning)
+                {
+                    movementController.SetSpeed(7);
+                }
+                else
+                {
+                    movementController.SetSpeed(2);
+                }
             }
         }
+        else if (gameManager.gameMode == "_Realism_Mode")
+        {
+            if (movementController.currentNode.GetComponent<NodeController>().isSideNode)
+            {
+                movementController.SetSpeed(0.5f);
+            }
+            else
+            {
+                if (isFrightened)
+                {
+                    movementController.SetSpeed(0.5f);
+                }
+                else if (ghostNodeState == GhostNodeStatesEnum.respawning)
+                {
+                    movementController.SetSpeed(7);
+                }
+                else
+                {
+                    movementController.SetSpeed(1);
+                }
+            }
+        }
+
+
     }
 
     public void SetFrightened(bool newIsFrightened)
@@ -354,22 +408,45 @@ public class EnemyController : MonoBehaviour
         List<string> possibleDirections = new List<string>();
         NodeController nodeController = movementController.currentNode.GetComponent<NodeController>();
 
-        if (nodeController.canMoveDown && movementController.lastMovingDirection != "up")
+        if (gameManager.gameMode == "_Realism_Mode")
         {
-            possibleDirections.Add("down");
+            if (movementController.lastMovingDirection != "up")
+            {
+                possibleDirections.Add("down");
+            }
+            if (movementController.lastMovingDirection != "down")
+            {
+                possibleDirections.Add("up");
+            }
+            if (movementController.lastMovingDirection != "left")
+            {
+                possibleDirections.Add("right");
+            }
+            if (movementController.lastMovingDirection != "right")
+            {
+                possibleDirections.Add("left");
+            }
         }
-        if (nodeController.canMoveUp && movementController.lastMovingDirection != "down")
+        else
         {
-            possibleDirections.Add("up");
+            if (nodeController.canMoveDown && movementController.lastMovingDirection != "up")
+            {
+                possibleDirections.Add("down");
+            }
+            if (nodeController.canMoveUp && movementController.lastMovingDirection != "down")
+            {
+                possibleDirections.Add("up");
+            }
+            if (nodeController.canMoveRight && movementController.lastMovingDirection != "left")
+            {
+                possibleDirections.Add("right");
+            }
+            if (nodeController.canMoveLeft && movementController.lastMovingDirection != "right")
+            {
+                possibleDirections.Add("left");
+            }
         }
-        if (nodeController.canMoveRight && movementController.lastMovingDirection != "left")
-        {
-            possibleDirections.Add("right");
-        }
-        if (nodeController.canMoveLeft && movementController.lastMovingDirection != "right")
-        {
-            possibleDirections.Add("left");
-        }
+
 
         string direction = "";
         int randDirectionIndex = UnityEngine.Random.Range(0, possibleDirections.Count - 1);

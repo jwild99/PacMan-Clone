@@ -122,7 +122,7 @@ public class NodeController : MonoBehaviour
         if (isPowerPellet && hasPellet)
         {
             PowerPelletBlinkingTimer += Time.deltaTime;
-            if (PowerPelletBlinkingTimer >= 0.1f)
+            if (PowerPelletBlinkingTimer >= 0.35f)
             {
                 PowerPelletBlinkingTimer = 0;
                 pelletSprite.enabled = !pelletSprite.enabled;

@@ -8,6 +8,8 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public string gameMode;
+
     public GameObject pacman;
 
     public GameObject leftWarpNode;
@@ -115,6 +117,10 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Setup started.");
 
+        gameMode = UnityEngine.SceneManagement.SceneManager.GetActiveScene().name;
+
+        Debug.Log(gameMode);
+
         ghostModeTimerIndex = 0;
         ghostModeTimer = 0f;
         completedTimer = false;
@@ -162,7 +168,14 @@ public class GameManager : MonoBehaviour
             startGameAudio.Play();
             score = 0;
             scoreText.text = "Score: " + score.ToString();
-            SetLives(3);
+
+            if (gameMode == "_Hardcore_Mode")
+            {
+                SetLives(1);
+                pacman.GetComponent<MovementController>().SetSpeed(5f);
+            }
+            else
+                SetLives(3);
             currentLevel = 1;
         }
 
@@ -323,7 +336,11 @@ public class GameManager : MonoBehaviour
         }
 
         // add to our score
-        AddToScore(10);
+        if (gameMode == "_Hardcore_Mode")
+            AddToScore(25);
+        else
+            AddToScore(10);
+
 
         // check if there are any pellets left
         if (pelletsLeft == 0)
@@ -360,7 +377,10 @@ public class GameManager : MonoBehaviour
     {
         ghostEatenAudio.Play();
 
-        AddToScore(400 * powerPelletMultiplyer);
+        if (gameMode == "_Hardcore_Mode")
+            AddToScore(500 * powerPelletMultiplyer);
+        else
+            AddToScore(400 * powerPelletMultiplyer);
         powerPelletMultiplyer++;
         StartCoroutine(PauseGame(1));
     }
