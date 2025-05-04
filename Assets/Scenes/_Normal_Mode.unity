@@ -19402,6 +19402,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dba7efe8378454fec9673ed5f01a762c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameMode: 
   pacman: {fileID: 234752087}
   leftWarpNode: {fileID: 84363850}
   rightWarpNode: {fileID: 110669093}

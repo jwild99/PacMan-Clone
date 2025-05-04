@@ -5,6 +5,7 @@ using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using UnityEngine.Audio;
 
 public class GameManager : MonoBehaviour
 {
@@ -80,8 +81,6 @@ public class GameManager : MonoBehaviour
     public bool runningTimer;
     public bool completedTimer;
 
-
-
     public enum GhostMode
     {
         chase,
@@ -122,6 +121,7 @@ public class GameManager : MonoBehaviour
         Debug.Log(gameMode);
 
         ghostModeTimerIndex = 0;
+
         ghostModeTimer = 0f;
         completedTimer = false;
         runningTimer = true;
@@ -165,17 +165,20 @@ public class GameManager : MonoBehaviour
         {
             Debug.Log("New game setup.");
 
+            if (gameMode == "_Hardcore_Mode")
+            {
+                startGameAudio.pitch = 0.5f;
+                waitTimer *= 2;
+                SetLives(1);
+                pacman.GetComponent<MovementController>().SetSpeed(4.65f);
+            }
+            else
+                SetLives(3);
+
             startGameAudio.Play();
             score = 0;
             scoreText.text = "Score: " + score.ToString();
 
-            if (gameMode == "_Hardcore_Mode")
-            {
-                SetLives(1);
-                pacman.GetComponent<MovementController>().SetSpeed(5f);
-            }
-            else
-                SetLives(3);
             currentLevel = 1;
         }
 
@@ -243,6 +246,12 @@ public class GameManager : MonoBehaviour
             {
                 respawningAudio.Stop();
             }
+        }
+        if (gameMode == "_Hardcore_Mode")
+        {
+            completedTimer = true;
+            runningTimer = false;
+            currentGhostMode = GhostMode.chase;
         }
         if (!completedTimer && runningTimer)
         {

@@ -10,6 +10,7 @@ public class MenuGameManager : MonoBehaviour
     Text normalModeText;
     Text hardcoreModeText;
     Text realismModeText;
+    Color darkRed = new Color32(160, 0, 0, 255);
 
     public string scene = "_Normal_Mode";
 
@@ -52,19 +53,19 @@ public class MenuGameManager : MonoBehaviour
         if (mode == "_Normal_Mode")
         {
             normalModeText.color = Color.gray;
-            hardcoreModeText.color = Color.white;
+            hardcoreModeText.color = Color.red;
             realismModeText.color = Color.white;
         }
         else if (mode == "_Hardcore_Mode")
         {
             normalModeText.color = Color.white;
-            hardcoreModeText.color = Color.gray;
+            hardcoreModeText.color = darkRed;
             realismModeText.color = Color.white;
         }
         else if (mode == "_Realism_Mode")
         {
             normalModeText.color = Color.white;
-            hardcoreModeText.color = Color.white;
+            hardcoreModeText.color = Color.red;
             realismModeText.color = Color.gray;
         }
 

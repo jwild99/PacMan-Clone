@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/_Realism_Mode.unity
     guid: e2e53f88438af4d47918527f86a780dc
+  - enabled: 1
+    path: Assets/Scenes/_Ryan_Mode.unity
+    guid: 600e25bf14c8944ad990c7a688bdb9eb
   m_configObjects: {}
