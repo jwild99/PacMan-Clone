@@ -9,7 +9,6 @@ public class MenuGameManager : MonoBehaviour
 
     Text normalModeText;
     Text hardcoreModeText;
-    Text realismModeText;
     Color darkRed = new Color32(160, 0, 0, 255);
 
     public string scene = "_Normal_Mode";
@@ -19,7 +18,6 @@ public class MenuGameManager : MonoBehaviour
         startButton = GameObject.Find("StartButton").GetComponent<Button>();
         normalModeText = GameObject.Find("NormalMode").GetComponent<Button>().GetComponentInChildren<Text>();
         hardcoreModeText = GameObject.Find("Hardcore").GetComponent<Button>().GetComponentInChildren<Text>();
-        realismModeText = GameObject.Find("Realism").GetComponent<Button>().GetComponentInChildren<Text>();
     }
 
     // Start is called before the first frame update
@@ -54,19 +52,11 @@ public class MenuGameManager : MonoBehaviour
         {
             normalModeText.color = Color.gray;
             hardcoreModeText.color = Color.red;
-            realismModeText.color = Color.white;
         }
         else if (mode == "_Hardcore_Mode")
         {
             normalModeText.color = Color.white;
             hardcoreModeText.color = darkRed;
-            realismModeText.color = Color.white;
-        }
-        else if (mode == "_Realism_Mode")
-        {
-            normalModeText.color = Color.white;
-            hardcoreModeText.color = Color.red;
-            realismModeText.color = Color.gray;
         }
 
         scene = mode;

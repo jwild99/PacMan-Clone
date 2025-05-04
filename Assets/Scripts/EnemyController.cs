@@ -107,11 +107,6 @@ public class EnemyController : MonoBehaviour
             Debug.LogError(name + " has no MovementController.");
         }
 
-        if (gameManager.gameMode == "_Realism_Mode")
-        {
-            color.a = Mathf.Clamp01(0.25f);
-        }
-
         // reset ghost node state back to start state
         ghostNodeState = startGhostNodeState;
 
@@ -204,12 +199,12 @@ public class EnemyController : MonoBehaviour
 
         animator.SetBool("moving",true);
 
-        if (testRespawn)
-        {
-            readyToLeaveHome = false;
-            ghostNodeState = GhostNodeStatesEnum.respawning;
-            testRespawn = false;
-        }
+        // if (testRespawn)
+        // {
+        //     readyToLeaveHome = false;
+        //     ghostNodeState = GhostNodeStatesEnum.respawning;
+        //     testRespawn = false;
+        // }
 
         if (gameManager.gameMode == "_Hardcore_Mode")
         {
@@ -255,29 +250,6 @@ public class EnemyController : MonoBehaviour
                 }
             }
         }
-        else if (gameManager.gameMode == "_Realism_Mode")
-        {
-            if (movementController.currentNode.GetComponent<NodeController>().isSideNode)
-            {
-                movementController.SetSpeed(0.5f);
-            }
-            else
-            {
-                if (isFrightened)
-                {
-                    movementController.SetSpeed(0.5f);
-                }
-                else if (ghostNodeState == GhostNodeStatesEnum.respawning)
-                {
-                    movementController.SetSpeed(7);
-                }
-                else
-                {
-                    movementController.SetSpeed(1);
-                }
-            }
-        }
-
 
     }
 
@@ -408,45 +380,22 @@ public class EnemyController : MonoBehaviour
         List<string> possibleDirections = new List<string>();
         NodeController nodeController = movementController.currentNode.GetComponent<NodeController>();
 
-        if (gameManager.gameMode == "_Realism_Mode")
+        if (nodeController.canMoveDown && movementController.lastMovingDirection != "up")
         {
-            if (movementController.lastMovingDirection != "up")
-            {
-                possibleDirections.Add("down");
-            }
-            if (movementController.lastMovingDirection != "down")
-            {
-                possibleDirections.Add("up");
-            }
-            if (movementController.lastMovingDirection != "left")
-            {
-                possibleDirections.Add("right");
-            }
-            if (movementController.lastMovingDirection != "right")
-            {
-                possibleDirections.Add("left");
-            }
+            possibleDirections.Add("down");
         }
-        else
+        if (nodeController.canMoveUp && movementController.lastMovingDirection != "down")
         {
-            if (nodeController.canMoveDown && movementController.lastMovingDirection != "up")
-            {
-                possibleDirections.Add("down");
-            }
-            if (nodeController.canMoveUp && movementController.lastMovingDirection != "down")
-            {
-                possibleDirections.Add("up");
-            }
-            if (nodeController.canMoveRight && movementController.lastMovingDirection != "left")
-            {
-                possibleDirections.Add("right");
-            }
-            if (nodeController.canMoveLeft && movementController.lastMovingDirection != "right")
-            {
-                possibleDirections.Add("left");
-            }
+            possibleDirections.Add("up");
         }
-
+        if (nodeController.canMoveRight && movementController.lastMovingDirection != "left")
+        {
+            possibleDirections.Add("right");
+        }
+        if (nodeController.canMoveLeft && movementController.lastMovingDirection != "right")
+        {
+            possibleDirections.Add("left");
+        }
 
         string direction = "";
         int randDirectionIndex = UnityEngine.Random.Range(0, possibleDirections.Count - 1);
@@ -613,7 +562,7 @@ public class EnemyController : MonoBehaviour
             }
         }
 
-         // if ghost can move right and won't be reversing direction, get the node right of ghost
+        // if ghost can move right and won't be reversing direction, get the node right of ghost
         if (nodeController.canMoveRight && lastMovingDirection != "left")
         {
             GameObject nodeRight = nodeController.nodeRight;

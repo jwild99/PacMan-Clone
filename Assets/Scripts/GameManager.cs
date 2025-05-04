@@ -172,6 +172,12 @@ public class GameManager : MonoBehaviour
                 SetLives(1);
                 pacman.GetComponent<MovementController>().SetSpeed(4.65f);
             }
+            else if (gameMode == "_Ryan_Mode")
+            {
+                startGameAudio.pitch = 1.5f;
+                waitTimer /= 1.5f;
+                SetLives(Random.Range(1, 6));
+            }
             else
                 SetLives(3);
 
@@ -205,6 +211,11 @@ public class GameManager : MonoBehaviour
     {
         lives = newLives;
         livesText.text = "Lives: " + lives;
+
+        if (gameMode == "_Ryan_Mode")
+        {
+            livesText.text = "Lives: ???";
+        }
     }
 
     void StartGame()
@@ -347,6 +358,10 @@ public class GameManager : MonoBehaviour
         // add to our score
         if (gameMode == "_Hardcore_Mode")
             AddToScore(25);
+        else if (gameMode == "_Ryan_Mode")
+        {
+            AddToScore(Random.Range(0, 101));
+        }
         else
             AddToScore(10);
 
@@ -380,6 +395,11 @@ public class GameManager : MonoBehaviour
         gameIsRunning = false;
         yield return new WaitForSeconds(timeToPause);
         gameIsRunning = true;
+    }
+
+    public void QuitGame()
+    {
+        UnityEngine.SceneManagement.SceneManager.LoadScene("_Menu");
     }
 
     public void GhostEaten()
