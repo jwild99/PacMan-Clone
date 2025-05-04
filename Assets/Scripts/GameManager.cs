@@ -397,11 +397,6 @@ public class GameManager : MonoBehaviour
         gameIsRunning = true;
     }
 
-    public void QuitGame()
-    {
-        UnityEngine.SceneManagement.SceneManager.LoadScene("_Menu");
-    }
-
     public void GhostEaten()
     {
         ghostEatenAudio.Play();
@@ -449,5 +444,11 @@ public class GameManager : MonoBehaviour
         }
 
         StartCoroutine(Setup());
+    }
+
+    public void QuitGame()
+    {
+        Debug.Log("Quit called");
+        UnityEngine.SceneManagement.SceneManager.LoadScene("_Menu");
     }
 }
