@@ -370,6 +370,7 @@ public class EnemyController : MonoBehaviour
                 {
                     ghostNodeState = GhostNodeStatesEnum.movingInNodes;
                     movementController.SetDirection("left");
+                    gameManager.PlayRyanLeavingHomeSound();
                 }
             }
         }

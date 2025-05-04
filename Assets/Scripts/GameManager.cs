@@ -11,6 +11,8 @@ public class GameManager : MonoBehaviour
 {
     public string gameMode;
 
+    public bool playSound = false;
+
     public GameObject pacman;
 
     public GameObject leftWarpNode;
@@ -23,8 +25,7 @@ public class GameManager : MonoBehaviour
     public AudioSource powerPelletAudio;
     public AudioSource respawningAudio;
     public AudioSource ghostEatenAudio;
-
-
+    public AudioSource ryanLeavingHomeAudio;
 
     public int currentMunch = 0;
 
@@ -204,6 +205,7 @@ public class GameManager : MonoBehaviour
         yield return new WaitForSeconds(waitTimer);
 
         Debug.Log("Calling StartGame()");
+        playSound = true;
         StartGame();
     }
 
@@ -450,5 +452,13 @@ public class GameManager : MonoBehaviour
     {
         Debug.Log("Quit called");
         UnityEngine.SceneManagement.SceneManager.LoadScene("_Menu");
+    }
+
+    public void PlayRyanLeavingHomeSound()
+    {
+        if (gameMode == "_Ryan_Mode" && !startGameAudio.isPlaying && gameIsRunning)
+        {
+            ryanLeavingHomeAudio.Play();
+        }
     }
 }
